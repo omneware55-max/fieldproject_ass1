@@ -1,6 +1,10 @@
-#Write a program to input a year and check whether it is a leap year or not. (if-else)
-year=int(input("enter the year:"))
-if year%4==0 and year%100!=0:
-    print("it is leap year")
+num1=int(input("Enter number: "))
+num2=int(input("enter number:"))
+num3=int(input("enter number:"))
+
+if num1>=num2 and num1>=num3:
+    print("num1 is greter")
+elif num2>=num1 and num2>=num3:
+    print("num2 is greter")
 else:
-    print("is not leap year") 
+    print("num3 is greter")
